@@ -1639,7 +1639,7 @@ function AcrylicPaint()
 				},
 			}, {
 				New("UICorner", {
-					CornerRadius = UDim.new(0, 8),
+					CornerRadius = UDim.new(8, 8),
 				}),
 			}),
 
@@ -1649,7 +1649,7 @@ function AcrylicPaint()
 				Size = UDim2.fromScale(1, 1),
 			}, {
 				New("UICorner", {
-					CornerRadius = UDim.new(0, 8),
+					CornerRadius = UDim.new(8, 8),
 				}),
 
 				New("UIGradient", {
