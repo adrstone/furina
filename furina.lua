@@ -1639,7 +1639,7 @@ function AcrylicPaint()
 				},
 			}, {
 				New("UICorner", {
-					CornerRadius = UDim.new(8, 8),
+					CornerRadius = UDim.new(0, 8),
 				}),
 			}),
 
@@ -1649,7 +1649,7 @@ function AcrylicPaint()
 				Size = UDim2.fromScale(1, 1),
 			}, {
 				New("UICorner", {
-					CornerRadius = UDim.new(8, 8),
+					CornerRadius = UDim.new(0, 8),
 				}),
 
 				New("UIGradient", {
@@ -1677,7 +1677,7 @@ function AcrylicPaint()
 				Image = "rbxassetid://9968344227",
 				ImageTransparency = 0.9,
 				ScaleType = Enum.ScaleType.Tile,
-				TileSize = UDim2.new(0, 128, 0, 128),
+				TileSize = UDim2.new(0, 120, 0, 120),
 				Size = UDim2.fromScale(1, 1),
 				BackgroundTransparency = 1,
 				ThemeTag = {
@@ -1685,7 +1685,7 @@ function AcrylicPaint()
 				},
 			}, {
 				New("UICorner", {
-					CornerRadius = UDim.new(0, 8),
+					CornerRadius = UDim.new(8, 8),
 				}),
 			}),
 
